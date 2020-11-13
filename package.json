@@ -1,0 +1,48 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server",
+    "lint:js": "eslint --fix \"src/js/**/*.js\""
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 0.1%",
+    "ie 9"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GringoXY/webpack-boilerplate.git"
+  },
+  "author": "GringoXY",
+  "bugs": {
+    "url": "https://github.com/GringoXY/webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/GringoXY/webpack-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "autoprefixer": "^10.0.1",
+    "babel-loader": "^8.1.0",
+    "browserslist": "^4.14.5",
+    "caniuse-lite": "^1.0.30001151",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^5.0.0",
+    "eslint": "^7.12.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "file-loader": "^6.1.1",
+    "html-webpack-plugin": "^4.5.0",
+    "path": "^0.12.7",
+    "postcss": "^8.1.4",
+    "postcss-loader": "^4.0.4",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.4",
+    "style-loader": "^2.0.0",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

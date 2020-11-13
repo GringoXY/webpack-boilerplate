@@ -1,0 +1,19 @@
+@import "_variables";
+
+@font-face {
+  font-family: Work-Sans;
+  src: url("../assets/fonts/work_sans/WorkSans-Light.ttf"), url("../assets/fonts/work_sans/WorkSans-Medium.ttf"),
+    url("../assets/fonts/work_sans/WorkSans-Regular.ttf"), url("../assets/fonts/work_sans/WorkSans-SemiBold.ttf"),
+    url("../assets/fonts/work_sans/WorkSans-Bold.ttf");
+}
+
+body {
+  font-family: $font-family;
+  font-size: $font-size;
+  color: $font-color;
+  background-color: $dark-bg-color;
+}
+
+h1 {
+  font-size: calc($font-size * 2);
+}
