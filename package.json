@@ -2,7 +2,7 @@
   "name": "webpack-boilerplate",
   "version": "0.0.1",
   "scripts": {
-    "build": "webpack",
+    "build": "webpack --config webpack.prod.js",
     "start": "webpack-dev-server",
     "lint:js": "eslint --fix \"src/js/**/*.js\""
   },
