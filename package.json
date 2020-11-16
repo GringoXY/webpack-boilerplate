@@ -1,6 +1,6 @@
 {
   "name": "webpack-boilerplate",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --config webpack.dev.js",
