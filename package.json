@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "start": "webpack-dev-server",
+    "start": "webpack serve --config webpack.dev.js",
     "lint:js": "eslint --fix \"src/js/**/*.js\""
   },
   "browserslist": [
