@@ -13,5 +13,6 @@ module.exports = merge(config, {
     compress: true,
     open: true,
     port: 9000,
+    hot: true,
   },
 });
